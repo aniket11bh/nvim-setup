@@ -11,11 +11,5 @@ return require('packer').startup(function(use)
 	  -- or                            , branch = '0.1.x',
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
-  use({
-	  'rebelot/terminal.nvim',
-	  config = function()
-		  require("terminal").setup()
-	  end
-  })
 end)
 
